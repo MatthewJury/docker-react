@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Lucy, This is my first CICD PipeLine</p>
+        <p>I was changed again</p>
         <a
           className="App-link"
           href="https://reactjs.org"
