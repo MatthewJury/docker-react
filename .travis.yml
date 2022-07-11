@@ -3,9 +3,9 @@ services:
   - docker
 
 before_install:
-  - docker build -t MatthewJury/docker-react -f Dockerfile.dev .
+  - docker build -t matthewjury4/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true MatthewJury/docker-react npm run test
+  - docker run -e CI=true matthewjury4/docker-react npm run test
 
 language: generic
