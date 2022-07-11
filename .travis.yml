@@ -13,7 +13,7 @@ language: generic
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "docker"
+  app: "docker-react"
   env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-088951536095"
   bucket_path: "resources/environments/e-4myeyz3v82/"
